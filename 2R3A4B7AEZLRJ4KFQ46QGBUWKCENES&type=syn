@@ -6,8 +6,7 @@ pcall(function()
         if check1 == check then 
             warn('user granted access')
         else 
-            warn('user denied access')
-            game.Players.LocalPlayer:Kick("Your information is [INVALID] please contact a staff member.")
+            warn('ijbtPnpxp4LWzFAafFebdkdQdDBtpZyG62F7zGtFLwyiS')
         end 
     end
 end)
